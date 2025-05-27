@@ -16,3 +16,12 @@
 
 -Building Analytics Tables on data files using Glue and Athena
 
+### Install Packages
+
+pip install pandas
+pip install numpy
+pip install spotipy
+
+### Project Execution Flow
+
+Extract Data from API -> Lambda Trigger (Every 1 hour) -> Run Extract Code - > Store Raw Data -> Trigger Transform Function -> Transform Data and load it - > Query using Athena.
