@@ -19,8 +19,11 @@
 ### Install Packages
 
 pip install pandas
+
 pip install numpy
+
 pip install spotipy
+
 
 ### Project Execution Flow
 
